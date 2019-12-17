@@ -1,0 +1,115 @@
+<html>
+   <head>
+   <title>page1</title>
+   <meta charset="UTF-8"/>
+   
+   <style type="text/css">
+   	 *{
+ 	padding: 0;
+ 	margin: 0;
+ 	font-family: sans-serif;
+
+ }
+ body{
+ 	background: #000;
+ }
+.C1{
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform:translate(-50%,-50%);
+	width: 36%;
+}
+
+ .C1 span{
+ 	color:white;
+ 	text-transform: uppercase;
+ 	display: block;
+
+ }
+ .text1{
+ 	color: white;
+ 	font-size: 40px;
+ 	font-weight: 600;
+ 	letter-spacing: 7px;
+ 	margin-bottom: 20px;
+ 	background-color: black;
+ 	
+ 	position: relative;
+ 	animation: text 3s 1;
+ }
+ .text2{
+ 	font-size: 30px;
+ 	color: #6ab04c;
+ 	margin-bottom: 20px;
+ }
+ .text3{
+ 	color: white;
+ 	font-size: 40px;
+ 	font-weight: 600;
+ 	letter-spacing: 7px;
+ 	margin-bottom: 20px;
+ 	background-color: black;
+ 	
+ 	position: relative;
+ 	animation: text 3s 1;}
+ @keyframes text {
+ 	0%{
+ 		color :black;
+ 		margin-bottom: -40px;
+ 	}
+ 	85%{
+ 		letter-spacing: 25px;
+ 		margin-bottom: -40px;
+ 	}
+ 	85%{
+ 		letter-spacing: 25px;
+ 		margin-bottom: -40px;
+ 	}
+ }
+ #menu{
+			list-style-type: none;
+			overflow: hidden;
+			margin: 0;
+			padding: 0;
+			background-color: black;
+		}
+		.sli{
+			float: left;
+		}
+		.sli a{
+			display: block;
+			color: white;
+			text-align: center;
+			padding: 14px 40px;
+			text-decoration: none;
+					}
+		.active{
+			background-color: #1e90ff;
+			border-radius: 20px;}
+.sli a:hover:not(.active){
+			color: #3498db;
+		}
+   </style>
+
+</head>
+
+<body><img src="image\home\white.png" width="15%" style="position: absolute;top: 3%">
+	<a href="#"> <button type="button" value="Inscrire" style="position: absolute;right: 2%; width: 10%; height: 5%;bottom:91%;background-color: #1e90ff;color: white;
+	 border-color: #1e90ff; border-radius: 20px;">Inscris-toi</button></a>
+	 <ul id="menu">
+	 
+	 	<li class="sli" style="position: absolute;width: 100%; margin-top: 2%;"><a href="#">Découvrire nos Clubs</a></li>
+	 </ul>
+	 <img src="image\home\semi-opened-laptop-computer-turned-on-on-table-2047905.jpg" width="40%" height="60%" style="position: absolute;right:-5%;bottom: 20%;">
+	 <img src="image\home\colour-world-10321696.jpg.webp"width="25%" height="20%" style="position: absolute;left:3%;bottom: 38%;">
+
+	<div class="C1">
+		<span class="text1">Bienvenue</span>
+		<span class = "text2">Dans</span>
+		<span class="text3"> Nos Clubs</span>
+	</div>
+	
+</body>
+</html>
