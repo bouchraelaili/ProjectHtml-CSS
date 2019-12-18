@@ -1,0 +1,83 @@
+
+body {
+  background-color: black;
+font-family: Helvetica, Arial, sans-serif; font-size: 15px;
+color: white;
+
+}
+#registration {
+    color: #fff;
+    
+    
+        
+     background: linear-gradient(#E2B915,black,#E2B915);
+        
+     /*-moz-border-radius: 10px;*/
+     /*-webkit-border-radius: 10px;*/
+     /*border-radius: 10px;*/
+     margin: 100px 100px 100px 100px;
+     width: 530px;
+     
+     }
+ 
+  h1 {font-size:240%;
+      color: white;
+      text-shadow: 1px 2px 9px #E2B915;
+
+      }
+ 
+#registration fieldset {
+      padding: 10%;
+
+      }
+
+ td{
+ padding: 7%;
+
+}
+#club-select{
+    width: 100%;
+
+}
+#menu{
+      list-style-type: none;
+      overflow: hidden;
+      margin: 0;
+      padding: 0;
+      background-color: black;
+    }
+    .sli{
+      float: left;
+    }
+    .sli a{
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 40px;
+      text-decoration: none;
+      font-size: 20px;
+          }
+    .active{
+      background-color: #1e90ff;
+      border-radius: 20px;
+    }
+    .sli a:hover:not(.active){
+      color: #3498db;
+
+    }
+    #btn-cnx{
+      background-color: #333;
+      border-color: #333;
+      padding: 8px 80px;
+      float: right;
+      margin: 20px;
+      margin: 4% 9%;
+    }
+    #A{
+      position: absolute;
+      top: -80px;
+    }
+    .ca{
+      /*position: relative;*/
+      /*margin-top: 400% !important;*/
+    }
