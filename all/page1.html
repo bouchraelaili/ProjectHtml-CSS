@@ -35,7 +35,7 @@
  	font-weight: 600;
  	letter-spacing: 7px;
  	margin-bottom: 20px;
- 	background-color: black;
+ 	background-color: none;
  	
  	position: relative;
  	animation: text 3s 1;
@@ -48,10 +48,10 @@
  .text3{
  	color: white;
  	font-size: 40px;
- 	font-weight: 600;
+ 	font-weight: 600px;
  	letter-spacing: 7px;
  	margin-bottom: 20px;
- 	background-color: black;
+ 	background-color: none;
  	
  	position: relative;
  	animation: text 3s 1;
@@ -60,14 +60,17 @@
  	0%{
  		color :black;
  		margin-bottom: -40px;
+ 		background-color: black;
  	}
  	85%{
  		letter-spacing: 25px;
  		margin-bottom: -40px;
+ 		background-color: black;
  	}
  	85%{
  		letter-spacing: 25px;
  		margin-bottom: -40px;
+ 		background-color: black;
  	}
  }
  @media screen and (max-width: 700px){
@@ -120,6 +123,21 @@
 .sli a:hover:not(.active){
 			color: #3498db;
 		}
+		#im11:hover{
+			font-size: 400%;
+		}
+		#im21:hover{
+			font-size: 400%;
+		}
+		/*#a-decovrir:hover{
+			width: 10%;
+			border-radius: 20px;
+			box-shadow:  0 0 5em #0652DD;
+		}*/
+		.aa{
+			background-color: red;
+			
+		}
    </style>
 
 </head>
@@ -148,26 +166,39 @@
 	</div>
 
 
-	 <ul id="menu">
-	 
-	 	<li class="sli" style="position: absolute;width: 100%; margin-top: 90px;"><a href="club.html">Découvrire nos Clubs</a></li>
+	 <ul id="menu" style="cursor: none;margin-left: 0px;left: 0px;">
+	 <center>
+	 	<li class="sli" style="position: absolute;width: 100%; margin-top: 90px;cursor: none;width: 2px;margin-left: 0px;left: 0px;"><a id="a-decovrir" href=""></a></li></center>
 	 </ul>
 	 <div style="position: absolute;width: 100%; margin-top: 170px;">
-		<ul id="menu">
+		<ul id="menu" >
 			<li class="sli" style="margin-left: 10%;"><a class="active" href="page1.html"><img src="image\icon\126572-16.png"> accueil</a></li>
-			<li class="sli"><a href="#">club</a></li>
+			<li class="sli"><a href="club.html">club</a></li>
+			<li class="sli"><a href="#">contact</a></li>
 			<li class="sli"><a href="#">about</a></li>
 			<!-- <li class="sli" style="float: right; margin-right: 10%;"><a href="#">inscription</a></li> -->
 		</ul>
 	</div>
-	 <img src="image\home\semi-opened-laptop-computer-turned-on-on-table-2047905.jpg" width="40%" height="60%" style="position: absolute;right:-5%;bottom: 20%;">
-	 <img src="image\home\colour-world-10321696.jpg.webp"width="25%" height="20%" style="position: absolute;left:3%;bottom: 38%;">
-
-	<div class="C1">
-		<span class="text1">Bienvenue</span>
-		<span class = "text2">Dans</span>
-		<span class="text3"> Nos Clubs</span>
+	<div style="margin-top: 360px; position: relative;padding-bottom: 400px;">
+		<div>
+			<img id="im21" src="image\home\semi-opened3.jpg" width="40%" height="60%" style="float: right;margin-right: 5%; box-shadow: inset 0 0 2em red, 0 0 2em #0652DD;">
+		</div>
+		<div>
+			<div class="C1">
+				<span class="text1">Bienvenue</span>
+				<span class = "text2">Dans</span>
+				<span class="text3"> Nos Clubs</span>
+			</div>
+		</div>
+		<div>
+			<img id="im11" src="image\home\colour-world-10321696.jpg.webp"width="40%" height="60%" style="float: left;margin-left: 5%; box-shadow: inset 0 0 2em red, 0 0 2em #0652DD; ">
+		</div>
+		
 	</div>
+	 
+	 
+
+	
 	
 </body>
 </html>
